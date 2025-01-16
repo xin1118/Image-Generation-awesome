@@ -1,0 +1,30 @@
+floor_plan_analysis/
+│
+├── data/
+│   ├── raw/                  # 原始图像数据（未标注）
+│   ├── processed/            # 经过预处理的图像数据（如颜色标注后的PNG文件）
+│   └── labels.csv            # 标签信息文件，记录每个图像的功能区及其对应的RGB颜色
+│
+├── models/                   # 存放训练好的模型权重或完整模型文件
+│
+├── notebooks/                # Jupyter Notebook 文件，用于探索性数据分析和快速原型设计
+│
+├── src/                      # 源代码目录，存放主要的Python脚本和模块
+│   ├── __init__.py           # 初始化文件，使得src可以作为包导入
+│   ├── data_preprocessing.py # 数据预处理函数和类
+│   ├── graph_construction.py # 构建图表示的函数和类
+│   ├── model_training.py     # 模型训练相关的函数和类
+│   ├── visualization.py      # 可视化工具和函数
+│   └── utils.py              # 辅助函数和其他工具
+│
+├── results/                  # 存储实验结果、图表、日志等
+│   ├── figures/              # 图表和可视化结果
+│   ├── logs/                 # 日志文件，记录训练过程中的信息
+│   └── metrics.csv           # 模型评估指标
+│
+├── config/                   # 配置文件，如超参数设置、路径配置等
+│   ├── config.yaml           # 主配置文件
+│
+├── .gitignore                # Git忽略规则，防止不必要的文件被提交到版本控制系统
+├── README.md                 # 项目说明文档，描述项目目的、使用方法等
+└── requirements.txt          # Python依赖列表，列出所有需要安装的库
