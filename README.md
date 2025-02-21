@@ -7,14 +7,14 @@
 # 目录CONTENT
 ## Plan TODO
 - [x] Dataset
-- [ ] Dataset_pre
+- [x] Dataset_pre
 - [x] TDA-Analysis
 - [x] GAN-pix2pix
 - [ ] GAN-StyleGAN3
 - [x] Diffusion-DDPM
 - [ ] Diffusion-DDIM
 - [x] Diffusion-Controlnet
-- [ ] VAE-BetaVAE
+- [x] VAE-BetaVAE
 - [ ] VAE-VQVAE
 - [ ] Flow-NICE
 ## Pick TODO
