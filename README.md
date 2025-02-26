@@ -12,7 +12,7 @@
 - [x] GAN-pix2pix
 - [ ] GAN-StyleGAN3
 - [x] Diffusion-DDPM
-- [ ] Diffusion-DDIM
+- [x] Diffusion-DDIM
 - [x] Diffusion-Controlnet
 - [x] VAE-BetaVAE
 - [ ] VAE-VQVAE
